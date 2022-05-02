@@ -10,9 +10,19 @@ html {
 	padding: 0;
 }
 
+.body {
+	height: 100vh;
+}
+
 .block {
 	background-color: cadetblue;
 	border: 1px solid cornsilk;
 	height: 2rem;
 	width: 2rem;
+}
+
+.row {
+	background-color: antiquewhite;
+	display: flex;
+	justify-content: center;
 }
