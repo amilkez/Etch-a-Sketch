@@ -11,14 +11,8 @@ html {
 }
 
 .block {
-	height: 20px;
-	width: 20px;
 	background-color: cadetblue;
-	border: 1px solid azure;
-}
-
-.container {
-	display: grid;
-	grid-template-columns: repeat(16, 1fr);
-	grid-template-rows: repeat(16, 1fr);
+	border: 1px solid cornsilk;
+	height: 2rem;
+	width: 2rem;
 }
