@@ -18,16 +18,17 @@ body {
 	align-items: center;
 }
 
-.block {
-	background-color: hsl(345, 48%, 49%);
-	border: 1px solid cornsilk;
-	height: 2rem;
-	width: 2rem;
+.container {
+	width: 600px;
+	height: 600px;
+	display: grid;
+	justify-content: center;
+	align-content: center;
 }
 
-.row {
-	display: flex;
-	justify-content: center;
+.block {
+	background-color: hsl(345, 48%, 49%);
+	border: 1px solid hsl(0, 0%, 87%);
 }
 
 .hover-ele {
