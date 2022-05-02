@@ -15,14 +15,17 @@ html {
 }
 
 .block {
-	background-color: cadetblue;
+	background-color: hsl(182, 25%, 50%);
 	border: 1px solid cornsilk;
 	height: 2rem;
 	width: 2rem;
 }
 
 .row {
-	background-color: antiquewhite;
 	display: flex;
 	justify-content: center;
+}
+
+.hover {
+	background-color: hsl(182, 25%, 75%);
 }

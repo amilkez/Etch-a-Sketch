@@ -7,5 +7,8 @@ for (let i = 0; i < 16; i++) {
 		const block = document.createElement("div");
 		block.classList.add("block");
 		row.appendChild(block);
+		block.addEventListener("mouseenter", () => {
+			block.classList.add("hover");
+		});
 	}
 }
