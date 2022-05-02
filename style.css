@@ -10,12 +10,16 @@ html {
 	padding: 0;
 }
 
-.body {
+body {
 	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .block {
-	background-color: hsl(182, 25%, 50%);
+	background-color: hsl(345, 48%, 49%);
 	border: 1px solid cornsilk;
 	height: 2rem;
 	width: 2rem;
@@ -27,5 +31,18 @@ html {
 }
 
 .hover {
-	background-color: hsl(182, 25%, 75%);
+	background-color: hsl(345, 48%, 25%);
+}
+
+button.new-grid {
+	background-color: hsl(233, 25%, 26%);
+	color: hsl(0, 50%, 100%);
+	padding: 0.5rem 2rem;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+button.new-grid:hover {
+	background-color: hsl(233, 25%, 35%);
+	cursor: pointer;
 }
